@@ -9,7 +9,7 @@ Prije pokretanja sustava, potrebno je pokrenuti RabbitMQ server i pokrenuti Mong
 
 Potrebno je izraditi korisnički račun na Twilio usluzi za korištenje SMS usluge. Registraciju je potrebno obaviti na https://www.twilio.com. Registracijom korisnik dobiva ID računa i autorizacijski token koji se koristi unutar datoteke smsService.js. Također, potrebno je unijeti dodijeljeni telefonski broj unutar datoteke smsOptions kao vrijednost varijable "from". 
 
-<img alt="pic" src = "https://i.postimg.cc/tCtjzL2c/Screenshot-42.png">
+![alt text](https://i.postimg.cc/tCtjzL2c/Screenshot-42.png)
 
 Prilikom prvog pokretanja usluga, potrebno je unutar direktorija svake usluge pokrenuti naredbu:
  ```bash
