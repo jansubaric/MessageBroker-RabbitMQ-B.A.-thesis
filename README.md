@@ -4,6 +4,7 @@ Kao praktični dio završnog rada izrađen je sustav za aktivaciju željene mobi
 Sustav se sastoji od tri zasebne usluge. 
 
 ![pic1](https://i.postimg.cc/441G6D8S/Screenshot-40.png)
+![pic2](https://i.postimg.cc/J0b6cCc4/Screenshot-44.png)
 
 ## Pokretanje sustava
 Za pokretanje sustava potrebno je instalirati node.js, express.js, MongoDB i RabbitMQ. 
