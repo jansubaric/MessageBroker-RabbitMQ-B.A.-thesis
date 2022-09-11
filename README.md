@@ -25,6 +25,9 @@ npm start
 ## Funkcije sustava
 Unutar dokumentacije završnog rada detaljno su objašnjene pojedine funkcije sustava i način rukovanja sa sustavom.
 
+Dohvaćanje menu-a:
+METODA: ```bash GET ```
+
 
 ## Autor
 
