@@ -25,17 +25,18 @@ npm start
 ## Funkcije sustava
 Unutar dokumentacije završnog rada detaljno su objašnjene pojedine funkcije sustava i način rukovanja sa sustavom.
 
-Dohvaćanje menu-a i dostupnih tarifa:
+## Dohvaćanje menu-a i dostupnih tarifa:
 
-METODA: ```GET```
+METODA: ```GET``` <br />
 URL: localhost:3000/api/menu
 
-Aktivacija željene tarife:
+## Aktivacija željene tarife:
 
-METODA: ```POST```
-URL: localhost:3000/api/aktiviraj
+METODA: ```POST``` <br />
+URL: localhost:3000/api/aktiviraj <br />
 BODY: 
-``` {
+``` 
+{
     "items" : [
         {"nazivTarife" : "Mala_Tarifa",
          "opisTarife": "60kn, 5GB, 80 min prema svim mrežama"
@@ -45,9 +46,9 @@ BODY:
 } 
 ```
 
-Dohvaćanje informacija o zahtjevu aktivacije:
+## Dohvaćanje informacija o zahtjevu aktivacije:
 
-METODA: ```GET```
+METODA: ```GET``` <br />
 URL: localhost:3000/api/aktiviraj/(ID ZAHTJEVA)
 
 ## Autor
