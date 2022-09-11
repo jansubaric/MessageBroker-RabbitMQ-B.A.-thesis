@@ -7,6 +7,10 @@ Sustav se sastoji od tri zasebne usluge.
 Za pokretanje sustava potrebno je instalirati node.js, express.js, MongoDB i RabbitMQ. 
 Prije pokretanja sustava, potrebno je pokrenuti RabbitMQ server i pokrenuti MongoDB bazu podataka.
 
+Potrebno je izraditi korisnički račun na Twilio usluzi za korištenje SMS usluge. Registraciju je potrebno obaviti na https://www.twilio.com. Registracijom korisnik dobiva ID računa i autorizacijski token koji se koristi unutar datoteke smsService.js. Također, potrebno je unijeti dodijeljeni telefonski broj unutar datoteke smsOptions kao vrijednost varijable "from". 
+
+<img alt="Docker" src = "https://ibb.co/NtKS9T4" height=50 width=58>
+
 Prilikom prvog pokretanja usluga, potrebno je unutar direktorija svake usluge pokrenuti naredbu:
  ```bash
 npm install
@@ -18,6 +22,7 @@ npm start
 
 ## Funkcije sustava
 Unutar dokumentacije završnog rada detaljno su objašnjene pojedine funkcije sustava i način rukovanja sa sustavom.
+
 
 ## Autor
 
