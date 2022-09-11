@@ -17,7 +17,7 @@ Prilikom prvog pokretanja usluga, potrebno je unutar direktorija svake usluge po
  ```bash
 npm install
 ```
-Nakon instalacije potrebnih paketa, usluge se mogu pokrenuti s naredbom:
+Nakon instalacije potrebnih paketa, usluge se mogu pokrenuti s naredbom za pokretanje servera:
  ```bash
 npm start
 ```
@@ -25,9 +25,30 @@ npm start
 ## Funkcije sustava
 Unutar dokumentacije završnog rada detaljno su objašnjene pojedine funkcije sustava i način rukovanja sa sustavom.
 
-Dohvaćanje menu-a:
-METODA: ```bash GET ```
+Dohvaćanje menu-a i dostupnih tarifa:
 
+METODA: ```GET```
+URL: localhost:3000/api/menu
+
+Aktivacija željene tarife:
+
+METODA: ```POST```
+URL: localhost:3000/api/aktiviraj
+BODY: 
+``` {
+    "items" : [
+        {"nazivTarife" : "Mala_Tarifa",
+         "opisTarife": "60kn, 5GB, 80 min prema svim mrežama"
+        }
+    ],
+    "phone_number" : "telefonski_broj"
+} 
+```
+
+Dohvaćanje informacija o zahtjevu aktivacije:
+
+METODA: ```GET```
+URL: localhost:3000/api/aktiviraj/(ID ZAHTJEVA)
 
 ## Autor
 
