@@ -3,7 +3,7 @@
 Kao praktični dio završnog rada izrađen je sustav za aktivaciju željene mobilne tarife koji koristi posrednik poruka RabbitMQ. 
 Sustav se sastoji od tri zasebne usluge. 
 
-![pic1](https://i.postimg.cc/441G6D8S/Screenshot-40.png)
+![pic1](https://i.postimg.cc/441G6D8S/Screenshot-40.png) <br />
 ![pic2](https://i.postimg.cc/J0b6cCc4/Screenshot-44.png)
 
 ## Pokretanje sustava
