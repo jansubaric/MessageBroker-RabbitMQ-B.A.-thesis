@@ -55,4 +55,5 @@ URL: localhost:3000/api/aktiviraj/(ID ZAHTJEVA)
 ## Autor
 
 - [@jansubaric](https://www.github.com/jansubaric)
+- https://zir.nsk.hr/islandora/object/riteh:3352/datastream/PDF/view
 
